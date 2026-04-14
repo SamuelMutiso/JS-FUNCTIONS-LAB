@@ -8,3 +8,11 @@ function convertToUpperCase (text) {
     return text.toUpperCase();
 }
 
+// function 3: finding the maximum value
+function findMaximum (num1, num2) {
+    if (num1 > num2) {
+    return num1;
+    } else {return num2;
+}
+}
+
