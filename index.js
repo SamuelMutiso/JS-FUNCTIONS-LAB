@@ -16,3 +16,13 @@ function findMaximum (num1, num2) {
 }
 }
 
+// function 4: creating function isPalindrome
+function isPalindrome(word) {
+    const hardFall = 
+word.toLowerCase(); 
+    const reversedWord = 
+hardFall.split('').reverse().join('');
+    return hardFall === reversedWord;
+
+}
+
